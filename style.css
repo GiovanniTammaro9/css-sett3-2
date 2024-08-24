@@ -1,5 +1,5 @@
 .topnav{
-    position: sticky;
+    position: fixed;
     top: 0px;
     border: 10px solid green;
     background-color: blue;
