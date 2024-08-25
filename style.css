@@ -1,16 +1,20 @@
-.topnav{
-    position: fixed;
-    top: 0px;
-    border: 10px solid green;
+#navbar{
     background-color: blue;
-    margin-top: 10px;
-    width: 100px;
+    overflow: hidden;
 }
 
-html,body.container{
-    height: 100%;
-    margin: 0;
-    padding: 0;
+#navbar a{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    float: left;
+    display: block;
+}
+
+.stiky{
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 footer{
